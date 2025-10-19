@@ -24,9 +24,9 @@ pnpm install
 ```
 
 2. **Configure API key**
-Create `.env` file:
+Create `.env` file (refer `.env.sample`):
 ```bash
-GEMINI_API_KEY=your_gemini_api_key_here
+GEMINI_API_KEY=<your_gemini_api_key_here>
 PORT=5174
 ```
 
