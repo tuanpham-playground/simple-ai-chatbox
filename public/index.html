@@ -1,0 +1,35 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>AI Chatbox</title>
+  <style>
+    body { font-family: system-ui, sans-serif; max-width: 720px; margin: 24px auto; }
+    #chat { border: 1px solid #ddd; border-radius: 12px; padding: 12px; height: 460px; overflow-y: auto; }
+    .msg.user { color: #1d4ed8 }
+    .msg.bot  { color: #047857 }
+    textarea { width: 100%; box-sizing: border-box; }
+    button { padding: 8px 14px; }
+  </style>
+</head>
+
+<body>
+  <h1>AI Chatbox</h1>
+  
+  <div id="chat"></div>
+  
+  <div style="margin-top:8px"></div>
+  
+  <textarea id="input" rows="3" placeholder="Enter your question..."></textarea>
+  
+  <div style="margin-top:8px"></div>
+  
+  <button id="send">SEND</button>
+
+  <script src="app.js"></script>
+</body>
+</html>
+
+
